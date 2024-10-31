@@ -1,0 +1,169 @@
+form.pvnap-ajax-auth{
+    display:none;
+    z-index:999999;
+	position:fixed;
+    top:25px;
+	left:50%;
+	min-width:350px;
+	max-width:98%;
+	margin-left:-200px;
+    padding:40px 25px 25px 25px;
+	background-color:#FFFFFF;
+    border-radius:8px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0 0 6px rgba(0, 0, 0, 0.2);   
+    color:#878787;
+    font-size:14px;
+}
+
+.pvnap-ajax-logout{
+    display:none;
+    z-index:999999;
+	position:fixed;
+    top:25%;
+	left:50%;
+	width:350px;
+	margin-left:-200px;
+    padding:40px 25px 25px 25px;
+	background-color:#FFFFFF;
+    border-radius:8px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0 0 6px rgba(0, 0, 0, 0.2);   
+    color:#878787;
+    font-size:14px;
+}
+
+.pvnap-ajax-auth h1, .pvnap-ajax-auth h3, .pvnap-ajax-auth h5{
+    font-family:'Georgia', 'Times New Roman', Times, serif;
+    font-weight:100;
+    color:#333333;    
+	line-height:0;  
+}
+.pvnap-ajax-auth h1{
+    font-size:27px;
+    left:15px;
+	margin-top:-10px;
+	padding:5px 0;
+}
+.pvnap-ajax-auth h3{
+    font-size:18px;
+    text-align:left;
+    margin:0;
+}
+.pvnap-ajax-auth h5{
+    font-size:12px;
+    text-align:left;
+    margin:0;
+}
+.pvnap-ajax-auth hr {
+    background-color:rgba(0, 0, 0, 0.1);
+    border:0 none;
+    height:1px;
+    margin:20px 0;
+}
+.pvnap-ajax-auth input[type="text"],
+.pvnap-ajax-auth input[type="email"],
+.pvnap-ajax-auth input[type="password"],
+.pvnap-ajax-auth input[type="tel"],
+.pvnap-ajax-auth input[type="search"],
+.pvnap-ajax-auth input[type="number"],
+.pvnap-ajax-auth input[type="url"]{
+    border:1px solid #EDEDED;
+    border-radius:3px 3px 3px 3px;
+    box-shadow:0 0 3px rgba(0, 0, 0, 0.1) inset;
+    color:#333333;
+    font-size:15px;
+    padding:10px 10px 10px 13px;
+    width:300px;
+    margin-bottom:5px;
+    background-color:#F9F9F9;
+    font-family:'Georgia', 'Times New Roman', Times, serif;
+}
+.pvnap-ajax-auth input[type="text"]:focus,
+.pvnap-ajax-auth input[type="email"]:focus,
+.pvnap-ajax-auth input[type="password"]:focus,
+.pvnap-ajax-auth input[type="tel"]:focus,
+.pvnap-ajax-auth input[type="search"]:focus,
+.pvnap-ajax-auth input[type="number"]:focus,
+.pvnap-ajax-auth input[type="url"]:focus{
+    background-color:#FFF;
+}
+.pvnap-ajax-auth label.error{
+	display:none !important;
+}
+.pvnap-ajax-auth ::-webkit-input-placeholder{
+	display:none !important;
+}
+.pvnap-ajax-auth :-moz-placeholder { /* Firefox 18- */
+   color:#bbb;  
+}
+.pvnap-ajax-auth ::-moz-placeholder {  /* Firefox 19+ */
+   color:#bbb;  
+}
+.pvnap-ajax-auth :-ms-input-placeholder {  
+   color:#bbb;  
+}
+.pvnap-ajax-auth input.error{
+	border:1px solid #FF0000 !important;
+}
+.pvnap-ajax-auth input.button{
+    float:right;
+}
+.pvnap_btn{
+	padding:5px 10px;
+}
+
+.pvnap-ajax-auth a{
+    text-decoration:none;
+}
+.pvnap-ajax-auth a.close{
+    color:#DCDCDC;
+    position:absolute;
+    right:15px;
+    top:15px;
+	font-weight:bold;
+}
+.pvnap-ajax-auth a.close:hover{
+	 color:#a9a9a9;
+}
+.pvnap-ajax-auth a.close2{
+    color:#DCDCDC;
+    position:absolute;
+    right:25px;
+    top:25px;
+}
+.pvnap-ajax-auth a.text-link{
+    color:#B4B2B2;
+    float:left;
+}
+.pvnap-ajax-auth p.status{
+    text-align:center;
+    margin:-15px 0 20px 0;
+    display:none;
+	color:#FF0000;
+}
+.pvnap-ajax-auth span{
+	display:inline-block;
+}
+.pvnap_overlay{
+    height:100%;
+    width:100%;
+    background-color:#F6F6F6;
+    opacity:0.9;
+    position:fixed;
+    z-index:999998;
+}
+.pvnap-ajax-auth label{
+	color: inherit;
+	display: block;
+	margin: 0;
+	    font-weight: normal;
+		
+}
+.pvnap-ajax-auth label.remember{
+	display:inline-block;
+}
+#pvnap_remember{
+	-webkit-appearance:checkbox
+	
+}

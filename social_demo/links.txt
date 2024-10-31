@@ -1,0 +1,3 @@
+http://hayageek.com/login-with-google-plus-javascript-api/
+
+https://github.com/jublonet/codebird-js
